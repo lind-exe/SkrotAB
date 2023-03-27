@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <h1>Kontakta oss</h1>
+    <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=jojje_lind@live.se" method="post"
+        style="margin: 15px; padding: 10px;">
+        <div>
+
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name" style="margin: 5px; width: 200px; padding-right: 10px;"><br>
+
+            <label for="adress">Adress</label>
+            <input type="text" id="adress" name="adress" style="width: 200px;  padding-right: 10px;"><br>
+
+            <label for="mail">Mail</label>
+            <input type="text" id="mail" name="mail" style="width: 200px; align-self: start;"><br>
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" style="width: 200px;  padding-right: 10px;"><br>
+        </div>
+
+        <p>Organisation</p>
+        <input type="radio" name="org" id="privat" value="privat">
+        <label for="privat">Privat</label>
+        <br>
+        <input type="radio" name="org" id="företag" value="företag">
+        <label for="fisk">Företag</label>
+        <br><br>
+
+        <p>Storlek</p>
+
+        <input type="radio" name="size" id="1-100" value="1-100">
+        <label for="1-100">1-100</label><br>
+
+        <input type="radio" name="size" id="101-1000" value="101-1000">
+        <label for="101-1000">101-1000</label><br>
+
+        <input type="radio" name="size" id="1000 eller mer" value="1000 eller mer">
+        <label for="1000 eller mer">1000 eller mer</label><br>
+
+
+        <label for="questions">Har du några övriga frågor till företaget?</label><br>
+        <textarea id="info" rows="5" cols="80" name="questions"></textarea><br>
+
+        <input type="hidden" name="newsletter" value="nej">
+        <input type="checkbox" id="newsletter" name="newsletter" value="ja">
+        <label for="newsletter">Vill du ha nyhetsbrev?</label>
+
+        <input type="hidden" name="contactphone" value="nej">
+        <input type="checkbox" id="contactphone" name="contactphone" value="ja">
+        <label for="contactphone">Vill du bli kontaktad via telefon?</label>
+
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <ul>
+        <li><a href="index.html">Startsida</a></li>
+        <li> <a href="products.html">Vårat skit</a></li>
+
+    </ul>
+    <iframe src="contactus.html" width="350" height="315" style="border:none; margin: 30px; padding: 15px;"></iframe>
+</body>
+
+</html>
