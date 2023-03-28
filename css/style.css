@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../Images/backg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+header{
+    height: 125px;
+    width: 99vw;
+    background-color: bisque;
+    padding: 10px;
+    margin:0
+}
+.subheader
+{
+    font-size: 1.5em;
+    text-transform: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h1{
+    padding-left: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.navigation li{
+    display:inline;
+}
+
+.navigation a{
+    display: inline-block;
+    padding: 1em;
+    color: red;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.navigation a:hover{
+    background-color: burlywood;
+}
+
+.contentframe{
+    width: 99.5vw;
+    height: 70vh;
+    border:none;
+}
+
+.footerframe {
+    width: 100vw;
+    height: 18vh;
+    background-color: bisque;
+    border:none;
+    padding: 10px 10px 0px 10px;
+    bottom:0;
+    left:0;
+    position:fixed
+    
+}
